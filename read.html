@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Forest Simulator | Aryabhatiya</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="https://mathematics.aryabhatiya.ml/arya-ico.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#f9f9f9;" >
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
+<h1 style="color:Green;">Forest | Aryabhatiya</h1>
+</div>
+</div>
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
+<h3 style="color:yellow;">How To Run This On Your Own Computertron</h3>
+<p>Yeah basically just download this github repository, and host it on some local server. I use the minimalist http-server, but you can also use MAMP. (Simulating The World is just a bunch of static files, but it needs to be on a server because of some weird browser security issues with XMLHttpRequests)<br><br>
+
+###Saving your own sims locally:<br><br>
+
+1.Get it running on your own computertron (see above). For the sake of this example, let's assume it's running on http://localhost:8080/. (which it will by default, if you use http-server)<br>
+2.Go to http://localhost:8080/model, and make your own sim!<br>
+3.Click "export model". Your simulation's data should pop up in a new tab.<br>
+4.Save it locally to [your local folder]/model/models, as [your sim name].json. (NOTE: the ".json" extension is important!)<br>
+5.Finally, to see your own sim in action, go to http://localhost:8080/model?local=[your sim name]! Voilà! And you can keep editing and exporting from there, just copy-paste the new data to [your sim name].json.</p>
+</div>
+</div>
+</body>
+</html>
